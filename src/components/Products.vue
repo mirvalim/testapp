@@ -73,20 +73,20 @@ export default {
   height: 100%;
 }
 .product-item{
-  width: 900px;
+  width: 1300px;
   height: 100%;
 
 }
 .product-item-grid{
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
 }
 .product-item-grid-2{
   display: grid;
   height: 250px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   gap: 1rem;
   border-radius: 6px;
   background-color: white;

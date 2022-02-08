@@ -16,11 +16,9 @@
       </div>
     </el-header>
     <el-container>
-      <el-aside class="aside" width="200px">Aside</el-aside>
       <el-main>
         <router-view></router-view>
       </el-main>
-      <el-aside class="aside" width="200px">Aside</el-aside>
     </el-container>
   </el-container>
 
