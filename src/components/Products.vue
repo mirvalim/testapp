@@ -18,7 +18,7 @@
                 <h3>Price:{{item.price}}</h3>
                 <span>description</span>
                 <el-tooltip class="item" effect="dark" :content="item.description" placement="top-start">
-                  <el-button>{{item.description.substring(0, 20)}}</el-button>
+                  <el-button type="text">{{item.description.substring(0, 20)}}</el-button>
                 </el-tooltip>
                 <div style="margin-top: 20px">
                   <el-button style="width: 80px" @click="openModalForEdit(item)" type="primary">edit</el-button>
