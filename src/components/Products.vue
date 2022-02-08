@@ -16,7 +16,7 @@
               <div>
                 <h3>{{item.productName}}</h3>
                 <h3>Price:{{item.price}}</h3>
-                <span>description</span>
+
                 <el-tooltip class="item" effect="dark" :content="item.description" placement="top-start">
                   <el-button type="text">{{item.description.substring(0, 20)}}</el-button>
                 </el-tooltip>

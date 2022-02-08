@@ -34,7 +34,8 @@ export default {
 
 <style scoped>
 .body{
-  background-image: linear-gradient(#409EFF, white);
+  height: 100vh;
+  background-color: darkgray;
 }
 
 .header{
