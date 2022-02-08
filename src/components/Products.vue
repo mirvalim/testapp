@@ -29,7 +29,6 @@
             </div>
           </div>
           <product-modal v-if="dialogVisible" :visible.sync="dialogVisible" :product="product" @closeModal="closeModal()"></product-modal>
-          <product-modal  />
         </div>
 
       </div>
@@ -93,6 +92,6 @@ export default {
   background-color: white;
 }
 img{
-  height: 200px;
+  height: 150px;
 }
 </style>
